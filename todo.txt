@@ -1,0 +1,27 @@
+- bonus + importants selon difficulté ou alors + de combos avec la difficulté (demander à Morgan par exemple ; soit on part de 3 étoiles comme aujourd'hui, soit de 0, soit de 1)
+- choisir couleurs plus appropriées pour les étoiles et le niveau de difficulté (demander à AC)
+- ajouter temps restant au score à la fin du quizz + effet graphique de compteur (on retire le temps et en parallèle on ajoute les points)
+- zoom :
+	o mettre zoom en bas à gauche ? demander conseil avant
+	o décaler un peu le svg vers le bas ou mettre un titre car il gêne l'arrondi
+	o fixer la hauteur de la carte via un paramètre d'initialisation ; astuce : il existe un attribut dans la balise svg qui permet de ne pas déformer l'image
+	o /!\ svg viseur : doit pouvoir s'adapter automatiquement en fonction de la largeur et hauteur de l'image
+- redéfinir les étoiles : créer un modèle dans une balise "defs" et l'utiliser dans des balises "use" (si les balises use acceptent un attribut id)
+- rendre les panneaux magnétiques, pour faciliter l'ergonomie de leur déplacement (si on désire les rendre déplaçables)
+- dimensionner la carte en fonction de la taille de l'écran et laisser la possibilité à l'utilisateur de modifier sa taille
+- créer un ordonnanceur pour placer les menus, une fois qu'ils sont créés
+- empêcher de cliquer sur les zones déjà trouvées ?
+- lorsque l'utilisateur se trompe, faire un effet d'agrossissement de la zone progressif rapide, puis revient à la normale : (1 - scale) * this.zoomMapWidth / 2
+- bug : en mode entrainement il y a des pays qui ce mette en rouge aléatoirement sans raison. 
+- bug : à la fin du mode entraiment, le bouton de retour au début ne s'affiche pas.
+
+//Fait mais à tester
+- lorsque le temps est terminé, afficher la bonne réponse à la question courante
+- afficher score sur panneau résultats
+- mettre les textes du .js en param dans le .htm
+- faire un bouton pour recommencer
+- ajouter mode entraînement (pas de temps, pas de panneau de contrôle)
+
+
+//notes :
+- impossible d'inclure les svg de façon externe, car mootools n'y a plus accès => on est obligé de le garder dans le code généré

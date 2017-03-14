@@ -1,0 +1,95 @@
+
+body{
+	background-image: url("old_map.png");
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+#map{
+	margin-left: 265px;
+}
+
+.map_tip.tip {
+	background-color: #333;
+	padding: 5px;
+}
+ 
+.map_tip .tip-title {
+	color: #fff;
+	background-color: #666;
+	font-size: 20px;
+	padding: 5px;
+	opacity: 0.8;
+}
+ 
+.map_tip .tip-text {
+	color: #fff;
+	padding: 5px;
+}
+
+
+path {
+	fill:white; 
+	stroke:black;
+	stroke-width:0.1
+}
+    
+.base {
+	fill:white; 
+	cursor: crosshair; 
+}
+
+rect.base {
+	fill:#333;
+}
+
+.base:hover {
+	fill:#b1e5a8;
+}
+
+rect.base:hover {
+	fill:#519548;
+}
+
+.clue, rect.clue {
+	fill:#519548; 
+	cursor: crosshair;
+}
+
+.clue:hover, rect.clue:hover, .zoomOver {
+	fill:#b1e5a8; 
+}
+
+.correct {
+	fill: #f7b963; 
+	cursor:not-allowed;
+}
+
+rect.correct {
+	fill: #f78833; 
+	cursor:not-allowed;
+}
+
+.correction, rect.correction {
+	fill: #cf4647; 
+	cursor: crosshair;
+}
+
+.notused, rect.notused {
+	fill:#bcbcbc; 
+	cursor:not-allowed;
+}
+
+.water {
+	fill:#75C5F0;
+}
+
+
+
+.imgframe {
+	fill:none;
+	fill-rule:nonzero; 
+}
+
+   
