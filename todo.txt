@@ -1,3 +1,5 @@
+Liste des choses à faire :
+
 - bonus + importants selon difficulté ou alors + de combos avec la difficulté (demander à Morgan par exemple ; soit on part de 3 étoiles comme aujourd'hui, soit de 0, soit de 1)
 - choisir couleurs plus appropriées pour les étoiles et le niveau de difficulté (demander à AC)
 - ajouter temps restant au score à la fin du quizz + effet graphique de compteur (on retire le temps et en parallèle on ajoute les points)
